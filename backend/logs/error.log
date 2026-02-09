@@ -1,0 +1,194 @@
+2026-01-26 16:50:25 [ERROR]: Error: Route not found: POST /auth/register
+    at notFoundHandler (C:\Users\MaseehJ\project-management-app\backend\src\middleware\errorHandler.js:49:17)
+    at Layer.handle [as handle_request] (C:\Users\MaseehJ\project-management-app\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\MaseehJ\project-management-app\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\MaseehJ\project-management-app\backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\MaseehJ\project-management-app\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\MaseehJ\project-management-app\backend\node_modules\express\lib\router\index.js:280:10)
+    at sanitizeQuery (C:\Users\MaseehJ\project-management-app\backend\src\middleware\validate.js:52:3)
+    at Layer.handle [as handle_request] (C:\Users\MaseehJ\project-management-app\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\MaseehJ\project-management-app\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\MaseehJ\project-management-app\backend\node_modules\express\lib\router\index.js:286:9
+2026-01-26 17:02:25 [ERROR]: Error: Route not found: POST /auth/register
+    at notFoundHandler (C:\Users\MaseehJ\project-management-app\backend\src\middleware\errorHandler.js:49:17)
+    at Layer.handle [as handle_request] (C:\Users\MaseehJ\project-management-app\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\MaseehJ\project-management-app\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\MaseehJ\project-management-app\backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\MaseehJ\project-management-app\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\MaseehJ\project-management-app\backend\node_modules\express\lib\router\index.js:280:10)
+    at sanitizeQuery (C:\Users\MaseehJ\project-management-app\backend\src\middleware\validate.js:52:3)
+    at Layer.handle [as handle_request] (C:\Users\MaseehJ\project-management-app\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\MaseehJ\project-management-app\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\MaseehJ\project-management-app\backend\node_modules\express\lib\router\index.js:286:9
+2026-01-26 17:07:19 [ERROR]: Error: Route not found: POST /auth/register
+    at notFoundHandler (C:\Users\MaseehJ\project-management-app\backend\src\middleware\errorHandler.js:49:17)
+    at Layer.handle [as handle_request] (C:\Users\MaseehJ\project-management-app\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\MaseehJ\project-management-app\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\MaseehJ\project-management-app\backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\MaseehJ\project-management-app\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\MaseehJ\project-management-app\backend\node_modules\express\lib\router\index.js:280:10)
+    at sanitizeQuery (C:\Users\MaseehJ\project-management-app\backend\src\middleware\validate.js:52:3)
+    at Layer.handle [as handle_request] (C:\Users\MaseehJ\project-management-app\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\MaseehJ\project-management-app\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\MaseehJ\project-management-app\backend\node_modules\express\lib\router\index.js:286:9
+2026-01-26 17:07:53 [ERROR]: Error: connect ECONNREFUSED ::1:587
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+2026-01-26 17:07:53 [ERROR]: Error: connect ECONNREFUSED ::1:587
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+2026-01-26 17:08:09 [ERROR]: Error: Invalid credentials
+    at userSchema.statics.findByCredentials (C:\Users\MaseehJ\project-management-app\backend\src\models\User.js:173:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async AuthService.login (C:\Users\MaseehJ\project-management-app\backend\src\services\auth.service.js:87:18)
+    at async C:\Users\MaseehJ\project-management-app\backend\src\controllers\auth.controller.js:25:18
+2026-01-26 17:09:11 [ERROR]: Error: connect ECONNREFUSED ::1:587
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+2026-01-26 17:09:11 [ERROR]: Error: connect ECONNREFUSED ::1:587
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+2026-01-26 17:09:19 [ERROR]: Error: Please verify your email first
+    at AuthService.login (C:\Users\MaseehJ\project-management-app\backend\src\services\auth.service.js:90:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async C:\Users\MaseehJ\project-management-app\backend\src\controllers\auth.controller.js:25:18
+2026-01-26 17:09:37 [ERROR]: Error: Please verify your email first
+    at AuthService.login (C:\Users\MaseehJ\project-management-app\backend\src\services\auth.service.js:90:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async C:\Users\MaseehJ\project-management-app\backend\src\controllers\auth.controller.js:25:18
+2026-01-26 17:10:31 [ERROR]: Error: connect ECONNREFUSED ::1:587
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+2026-01-26 17:10:31 [ERROR]: Error: connect ECONNREFUSED ::1:587
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+2026-01-26 17:10:44 [ERROR]: Error: Please verify your email first
+    at AuthService.login (C:\Users\MaseehJ\project-management-app\backend\src\services\auth.service.js:90:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async C:\Users\MaseehJ\project-management-app\backend\src\controllers\auth.controller.js:25:18
+2026-01-26 17:10:49 [ERROR]: Error: Please verify your email first
+    at AuthService.login (C:\Users\MaseehJ\project-management-app\backend\src\services\auth.service.js:90:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async C:\Users\MaseehJ\project-management-app\backend\src\controllers\auth.controller.js:25:18
+2026-01-26 17:12:54 [ERROR]: Error: connect ECONNREFUSED ::1:587
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+2026-01-26 17:12:54 [ERROR]: Error: connect ECONNREFUSED ::1:587
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+2026-01-26 17:13:03 [ERROR]: Error: Please verify your email first
+    at AuthService.login (C:\Users\MaseehJ\project-management-app\backend\src\services\auth.service.js:96:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async C:\Users\MaseehJ\project-management-app\backend\src\controllers\auth.controller.js:25:18
+2026-01-26 17:13:17 [ERROR]: Error: Please verify your email first
+    at AuthService.login (C:\Users\MaseehJ\project-management-app\backend\src\services\auth.service.js:96:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async C:\Users\MaseehJ\project-management-app\backend\src\controllers\auth.controller.js:25:18
+2026-01-26 17:13:19 [ERROR]: Error: Please verify your email first
+    at AuthService.login (C:\Users\MaseehJ\project-management-app\backend\src\services\auth.service.js:96:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async C:\Users\MaseehJ\project-management-app\backend\src\controllers\auth.controller.js:25:18
+2026-01-26 17:14:43 [ERROR]: Error: connect ECONNREFUSED ::1:587
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+2026-01-26 17:14:43 [ERROR]: Error: connect ECONNREFUSED ::1:587
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+2026-01-26 17:14:57 [ERROR]: Error: Please verify your email first
+    at AuthService.login (C:\Users\MaseehJ\project-management-app\backend\src\services\auth.service.js:96:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async C:\Users\MaseehJ\project-management-app\backend\src\controllers\auth.controller.js:25:18
+2026-01-26 17:15:51 [ERROR]: Error: secretOrPrivateKey must have a value
+    at module.exports [as sign] (C:\Users\MaseehJ\project-management-app\backend\node_modules\jsonwebtoken\sign.js:111:20)
+    at AuthService.generateAccessToken (C:\Users\MaseehJ\project-management-app\backend\src\services\auth.service.js:14:16)
+    at AuthService.login (C:\Users\MaseehJ\project-management-app\backend\src\services\auth.service.js:94:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async C:\Users\MaseehJ\project-management-app\backend\src\controllers\auth.controller.js:25:18
+2026-01-26 17:24:01 [ERROR]: VersionError: No matching document found for id "697753ab939ba1029dfd5c39" version 8 modifiedPaths "refreshTokens"
+    at generateVersionError (C:\Users\MaseehJ\project-management-app\backend\node_modules\mongoose\lib\model.js:566:10)
+    at model.save (C:\Users\MaseehJ\project-management-app\backend\node_modules\mongoose\lib\model.js:624:28)
+    at AuthService.refreshToken (C:\Users\MaseehJ\project-management-app\backend\src\services\auth.service.js:159:16)
+    at C:\Users\MaseehJ\project-management-app\backend\src\controllers\auth.controller.js:77:36
+    at C:\Users\MaseehJ\project-management-app\backend\src\middleware\errorHandler.js:136:19
+    at Layer.handle [as handle_request] (C:\Users\MaseehJ\project-management-app\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\MaseehJ\project-management-app\backend\node_modules\express\lib\router\route.js:149:13)
+    at verifyRefreshToken (C:\Users\MaseehJ\project-management-app\backend\src\middleware\auth.js:118:7)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2026-01-26 17:24:01 [ERROR]: VersionError: No matching document found for id "697753ab939ba1029dfd5c39" version 9 modifiedPaths "refreshTokens"
+    at generateVersionError (C:\Users\MaseehJ\project-management-app\backend\node_modules\mongoose\lib\model.js:566:10)
+    at model.save (C:\Users\MaseehJ\project-management-app\backend\node_modules\mongoose\lib\model.js:624:28)
+    at AuthService.refreshToken (C:\Users\MaseehJ\project-management-app\backend\src\services\auth.service.js:159:16)
+    at C:\Users\MaseehJ\project-management-app\backend\src\controllers\auth.controller.js:77:36
+    at C:\Users\MaseehJ\project-management-app\backend\src\middleware\errorHandler.js:136:19
+    at Layer.handle [as handle_request] (C:\Users\MaseehJ\project-management-app\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\MaseehJ\project-management-app\backend\node_modules\express\lib\router\route.js:149:13)
+    at verifyRefreshToken (C:\Users\MaseehJ\project-management-app\backend\src\middleware\auth.js:118:7)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2026-01-26 17:24:43 [ERROR]: VersionError: No matching document found for id "697753ab939ba1029dfd5c39" version 11 modifiedPaths "refreshTokens"
+    at generateVersionError (C:\Users\MaseehJ\project-management-app\backend\node_modules\mongoose\lib\model.js:566:10)
+    at model.save (C:\Users\MaseehJ\project-management-app\backend\node_modules\mongoose\lib\model.js:624:28)
+    at AuthService.refreshToken (C:\Users\MaseehJ\project-management-app\backend\src\services\auth.service.js:159:16)
+    at C:\Users\MaseehJ\project-management-app\backend\src\controllers\auth.controller.js:77:36
+    at C:\Users\MaseehJ\project-management-app\backend\src\middleware\errorHandler.js:136:19
+    at Layer.handle [as handle_request] (C:\Users\MaseehJ\project-management-app\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\MaseehJ\project-management-app\backend\node_modules\express\lib\router\route.js:149:13)
+    at verifyRefreshToken (C:\Users\MaseehJ\project-management-app\backend\src\middleware\auth.js:118:7)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2026-01-26 17:32:16 [ERROR]: ValidationError: Project validation failed: key: Path `key` is required., organizationId: Path `organizationId` is required.
+    at Document.invalidate (C:\Users\MaseehJ\project-management-app\backend\node_modules\mongoose\lib\document.js:3373:32)
+    at C:\Users\MaseehJ\project-management-app\backend\node_modules\mongoose\lib\document.js:3134:17
+    at C:\Users\MaseehJ\project-management-app\backend\node_modules\mongoose\lib\schemaType.js:1446:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+2026-01-26 17:32:27 [ERROR]: ValidationError: Project validation failed: organizationId: Path `organizationId` is required.
+    at Document.invalidate (C:\Users\MaseehJ\project-management-app\backend\node_modules\mongoose\lib\document.js:3373:32)
+    at C:\Users\MaseehJ\project-management-app\backend\node_modules\mongoose\lib\document.js:3134:17
+    at C:\Users\MaseehJ\project-management-app\backend\node_modules\mongoose\lib\schemaType.js:1446:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+2026-01-26 17:32:28 [ERROR]: ValidationError: Project validation failed: organizationId: Path `organizationId` is required.
+    at Document.invalidate (C:\Users\MaseehJ\project-management-app\backend\node_modules\mongoose\lib\document.js:3373:32)
+    at C:\Users\MaseehJ\project-management-app\backend\node_modules\mongoose\lib\document.js:3134:17
+    at C:\Users\MaseehJ\project-management-app\backend\node_modules\mongoose\lib\schemaType.js:1446:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+2026-01-26 17:32:29 [ERROR]: ValidationError: Project validation failed: organizationId: Path `organizationId` is required.
+    at Document.invalidate (C:\Users\MaseehJ\project-management-app\backend\node_modules\mongoose\lib\document.js:3373:32)
+    at C:\Users\MaseehJ\project-management-app\backend\node_modules\mongoose\lib\document.js:3134:17
+    at C:\Users\MaseehJ\project-management-app\backend\node_modules\mongoose\lib\schemaType.js:1446:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+2026-01-26 17:32:29 [ERROR]: ValidationError: Project validation failed: organizationId: Path `organizationId` is required.
+    at Document.invalidate (C:\Users\MaseehJ\project-management-app\backend\node_modules\mongoose\lib\document.js:3373:32)
+    at C:\Users\MaseehJ\project-management-app\backend\node_modules\mongoose\lib\document.js:3134:17
+    at C:\Users\MaseehJ\project-management-app\backend\node_modules\mongoose\lib\schemaType.js:1446:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+2026-01-26 17:32:29 [ERROR]: ValidationError: Project validation failed: organizationId: Path `organizationId` is required.
+    at Document.invalidate (C:\Users\MaseehJ\project-management-app\backend\node_modules\mongoose\lib\document.js:3373:32)
+    at C:\Users\MaseehJ\project-management-app\backend\node_modules\mongoose\lib\document.js:3134:17
+    at C:\Users\MaseehJ\project-management-app\backend\node_modules\mongoose\lib\schemaType.js:1446:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+2026-01-26 17:32:29 [ERROR]: ValidationError: Project validation failed: organizationId: Path `organizationId` is required.
+    at Document.invalidate (C:\Users\MaseehJ\project-management-app\backend\node_modules\mongoose\lib\document.js:3373:32)
+    at C:\Users\MaseehJ\project-management-app\backend\node_modules\mongoose\lib\document.js:3134:17
+    at C:\Users\MaseehJ\project-management-app\backend\node_modules\mongoose\lib\schemaType.js:1446:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+2026-01-26 17:32:29 [ERROR]: ValidationError: Project validation failed: organizationId: Path `organizationId` is required.
+    at Document.invalidate (C:\Users\MaseehJ\project-management-app\backend\node_modules\mongoose\lib\document.js:3373:32)
+    at C:\Users\MaseehJ\project-management-app\backend\node_modules\mongoose\lib\document.js:3134:17
+    at C:\Users\MaseehJ\project-management-app\backend\node_modules\mongoose\lib\schemaType.js:1446:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+2026-01-26 17:32:30 [ERROR]: ValidationError: Project validation failed: organizationId: Path `organizationId` is required.
+    at Document.invalidate (C:\Users\MaseehJ\project-management-app\backend\node_modules\mongoose\lib\document.js:3373:32)
+    at C:\Users\MaseehJ\project-management-app\backend\node_modules\mongoose\lib\document.js:3134:17
+    at C:\Users\MaseehJ\project-management-app\backend\node_modules\mongoose\lib\schemaType.js:1446:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+2026-01-26 17:33:37 [ERROR]: ValidationError: Project validation failed: key: Path `key` is required.
+    at Document.invalidate (C:\Users\MaseehJ\project-management-app\backend\node_modules\mongoose\lib\document.js:3373:32)
+    at C:\Users\MaseehJ\project-management-app\backend\node_modules\mongoose\lib\document.js:3134:17
+    at C:\Users\MaseehJ\project-management-app\backend\node_modules\mongoose\lib\schemaType.js:1446:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+2026-01-26 17:35:37 [ERROR]: ValidationError: Task validation failed: taskNumber: Path `taskNumber` is required.
+    at Document.invalidate (C:\Users\MaseehJ\project-management-app\backend\node_modules\mongoose\lib\document.js:3373:32)
+    at C:\Users\MaseehJ\project-management-app\backend\node_modules\mongoose\lib\document.js:3134:17
+    at C:\Users\MaseehJ\project-management-app\backend\node_modules\mongoose\lib\schemaType.js:1446:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+2026-01-30 16:38:25 [ERROR]: Error: Invalid credentials
+    at userSchema.statics.findByCredentials (C:\Users\MaseehJ\Documents\project-management-app\backend\src\models\User.js:173:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async AuthService.login (C:\Users\MaseehJ\Documents\project-management-app\backend\src\services\auth.service.js:82:18)
+    at async C:\Users\MaseehJ\Documents\project-management-app\backend\src\controllers\auth.controller.js:25:18
+2026-01-30 16:39:13 [ERROR]: Error: connect ECONNREFUSED 127.0.0.1:587
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+2026-01-30 16:39:13 [ERROR]: Error: connect ECONNREFUSED 127.0.0.1:587
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+2026-01-30 17:33:09 [ERROR]: Error: connect ECONNREFUSED 127.0.0.1:587
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+2026-01-30 17:33:09 [ERROR]: Error: connect ECONNREFUSED 127.0.0.1:587
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
